@@ -4,10 +4,10 @@
 
 */
 
-Map func(Map data) {
-  return data;
+Map func() {
+  return {1: 'one', 2: 'two'};
 }
 
 void main() {
-  print(func({}));
+  print(func());
 }

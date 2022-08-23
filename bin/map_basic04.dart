@@ -11,7 +11,7 @@ Map func(List lst1, List lst2) {
   Map list_to_map = {};
   int i = 0;
   while (i < lst1.length && i < lst2.length) {
-    Map data = {i: i};
+    Map data = {lst1[i]: lst2[i]};
     list_to_map.addAll(data);
     i++;
   }
